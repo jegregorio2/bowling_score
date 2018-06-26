@@ -41,7 +41,7 @@ footer.container p {
 .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url('../img/pexels-photo-344029_1500x500a.jpg');
+    background-image: url('../img/bowling_lanes_1500x500.jpg');
     background-size: cover;
     color: #ffffff;
     height: 400px;
@@ -49,43 +49,39 @@ footer.container p {
 }
 @media (max-width: 1200px) {
 	.jumbotron {
-		 background-image: url('../img/pexels-photo-344029_1200x400a.jpg');
+		 background-image: url('../img/bowling_lanes_1200x400.jpg');
 	} 
 } 
 @media (max-width: 800px) {
 	.jumbotron {
-		 background-image: url('../img/pexels-photo-344029_800x400a.jpg');
+		 background-image: url('../img/bowling_lanes_800x400.jpg');
 	} 
 } 
 @media (max-width: 600px) {
 	.jumbotron {
-		 background-image: url('../img/pexels-photo-344029_600x300a.jpg');
+		 background-image: url('../img/bowling_lanes_600x300.jpg');
 		 height: 300px;
 	} 
 } 
 @media (max-width: 500px) {
 	.jumbotron {
-		 background-image: url('../img/pexels-photo-344029_500x250a.jpg');
+		 background-image: url('../img/bowling_lanes_500x250.jpg');
 		 height: 250px;
 	} 
 } 
 @media (max-width: 400px) {
 	.jumbotron {
-		 background-image: url('../img/pexels-photo-344029_300x150a.jpg');
+		 background-image: url('../img/bowling_lanes_300x150.jpg');
 		 height: 150px;
 	} 
 } 
 
 /*container*/
 .container h1 {
-	/*background-color: #80ff07;*/
 	text-align: center;
 	display: block;
 	position: relative;
 	top: 130px;
-	/*background-color: #8000ff;*/
-	/*padding: 10px;*/
-	/*border-radius: 25px;*/
 	text-shadow: 5px 5px #000000;
 } 
 @media (max-width: 600px) {
@@ -172,7 +168,6 @@ tr:nth-child(odd){
 /*clicks*/
 #zero, #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #spare, #strike {
 	background-color: #DFDFDF;
-	/*background-color: #8000ff;*/
 	width: 55px;
 	height: 35px;
 	font-size: 20px;
@@ -240,7 +235,6 @@ tr:nth-child(odd){
 .button_area {
 	padding: 20px;
 	text-align: center;
-	/*background-color: #20ffff;*/
 	background-color: #fc02ff;
 } 
 @media (max-width: 415px){
@@ -248,7 +242,6 @@ tr:nth-child(odd){
 		display: block;
 		position: relative;
 		padding-bottom: 20px;
-		/*width: 90%;*/
 		margin: 0 auto;
 		padding-top: 20px;
 	} 
